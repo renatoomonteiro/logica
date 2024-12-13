@@ -1,0 +1,48 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram name="Página-1" id="ZO6OrSRdYTbqUF04YpJF">
+    <mxGraphModel dx="2607" dy="1520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rdkY3RSzwIZt0Yvgywsm-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rdkY3RSzwIZt0Yvgywsm-1" target="rdkY3RSzwIZt0Yvgywsm-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rdkY3RSzwIZt0Yvgywsm-1" value="INÍCIO" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="348" y="330" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rdkY3RSzwIZt0Yvgywsm-2" value="FIM" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="348" y="990" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IKrL7wBLNmTFfv4xlvYs-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rdkY3RSzwIZt0Yvgywsm-5" target="rdkY3RSzwIZt0Yvgywsm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rdkY3RSzwIZt0Yvgywsm-5" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;PRODUTO" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" parent="1" vertex="1">
+          <mxGeometry x="358" y="440" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rdkY3RSzwIZt0Yvgywsm-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="rdkY3RSzwIZt0Yvgywsm-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="408" y="780" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rdkY3RSzwIZt0Yvgywsm-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rdkY3RSzwIZt0Yvgywsm-7" target="rdkY3RSzwIZt0Yvgywsm-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rdkY3RSzwIZt0Yvgywsm-7" value="PRODUTO&lt;div&gt;VALOR&lt;/div&gt;&lt;div&gt;DESCONTO&lt;/div&gt;&lt;div&gt;PRECOFINAL&lt;/div&gt;" style="shape=display;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="336" y="830" width="144" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IKrL7wBLNmTFfv4xlvYs-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;VALOR&lt;div&gt;&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="358" y="530" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IKrL7wBLNmTFfv4xlvYs-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;DESCONTO&lt;div&gt;&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="358" y="620" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IKrL7wBLNmTFfv4xlvYs-4" value="PRECOFINAL = VALOR - DESCONTO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="710" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IKrL7wBLNmTFfv4xlvYs-5" value="&lt;ul&gt;&lt;li&gt;CRIAR AS VARIÁVEIS PRODUTO, VALOR E DESCONTO&lt;/li&gt;&lt;li&gt;RECEBER OS DADOS NAS VARIÁVEIS&lt;/li&gt;&lt;li&gt;CALCULAR O PRECO DO PRODUTO COM DESCONTO&lt;/li&gt;&lt;li&gt;MOSTRAR OS ITENS:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;PRODUTO, VALOR, DESCONTO E PRECOFINAL (COM DESCONTO)&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="179" y="40" width="470" height="210" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
