@@ -12,7 +12,7 @@ seu valor e uma condição para definir se haverá próximo produto ou final da 
 	
 	funcao inicio()
 	{
-		cadeia produto="", produtos=""
+		cadeia produto="", listaProdutos=""
 		real valor, total = 0.0
 		inteiro continua = 0, cont
 		
@@ -26,7 +26,8 @@ seu valor e uma condição para definir se haverá próximo produto ou final da 
 			leia(valor)
 
 			se(valor > 0){
-				total += valor				
+				total += valor
+				listaProdutos+=produto + "....R$" +valor + "\n"
 				}
 			senao{
 				escreva("\nInforme um valor válido!\n")
@@ -42,7 +43,7 @@ seu valor e uma condição para definir se haverá próximo produto ou final da 
 		traco()
 		escreva("\n")
 		
-		escreva("Produtos comprados: ", produto,"\nTotal da compra R$", total)		
+		escreva("Produtos comprados:\n", listaProdutos,"\nTotal da compra R$", total)		
 		
 	}
 	funcao traco5(){
@@ -67,7 +68,7 @@ seu valor e uma condição para definir se haverá próximo produto ou final da 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 915; 
+ * @POSICAO-CURSOR = 733; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
