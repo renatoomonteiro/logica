@@ -13,43 +13,43 @@ Pode, se quiser , usar um segundo vetor como apoio.
 	
 	inteiro var_Num[8] = {2,40,27,13,45,50,79,99}, i, j, aux
 	funcao inicio()
-	{
-		vetorOrdenado()
+	{		
 		vetorDesordenado()
+		vetorOrdenado()
 	}
 	
 	funcao vetorDesordenado()
 	{
-		escreva("Vetor ordenado: ")
+		escreva("Vetor desordenado: ")
 		para(i=0; i<=7; i++)
 		{
 			escreva(var_Num[i], ", ")
 		}
 		escreva("\n")	
 	}
+	
 	funcao vetorOrdenado()
-	{
-
-	escreva("Vetor desordenado ")
-		para(i=0; i<=7; i++)
-		{
-			escreva(var_Num[i], " ")
-		}		
-		escreva("\n")
-
-		para(i=0; i<=7; i++)
+	{	
+		// Ordenação do vetor usando Bubble Sort
+		para(i=0; i<8; i++)
 		{
 			para(j=0; j<7; j++)
 			{
 				se(var_Num[j] > var_Num[j + 1])
 					{
+						// Troca de valores
 						aux = var_Num[j]
 						var_Num[j] = var_Num[j + 1]
 						var_Num[j + 1] = aux
 					}
 			}
 		}
-
+		// Exibe o vetor ordenado
+        escreva("Vetor ordenado: ")
+        para (i = 0; i < 8; i++)
+        {
+            escreva(var_Num[i], " ")
+        }        
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -57,7 +57,7 @@ Pode, se quiser , usar um segundo vetor como apoio.
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 949; 
+ * @POSICAO-CURSOR = 925; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
